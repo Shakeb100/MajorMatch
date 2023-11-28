@@ -1,9 +1,14 @@
 import styles from './page.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>Major Match</h1>
-    </main>
-  )
+    <div className={styles.container}>
+      <h1>Welcome to Major Match</h1>
+      <nav>
+        <Link href="/login">Login</Link> | 
+        <Link href="/register">Register</Link>
+      </nav>
+    </div>
+  );
 }
