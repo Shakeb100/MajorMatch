@@ -4,9 +4,10 @@ import { useState } from 'react';
 export default function Register() {
   const [formData, setFormData] = useState({
     username: '',
+    name: '',
     email: '',
     password: '',
-    // include other fields as per your requirements
+    
   });
 
   const handleChange = (e) => {
