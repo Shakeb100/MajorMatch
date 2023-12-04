@@ -10,12 +10,11 @@ export default async function handler(req, res) {
         await mysql.query(query, values);
         res.status(200).json({message: 'User connected successfully'});
     }
-
-
-
-
-
-
+    catch(error){
+        res.status(500).json({error: error.message});
     }
-
+    }
+    else{
+        res.status(405).send('Not allowed');
+    }
 }
