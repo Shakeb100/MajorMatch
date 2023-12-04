@@ -39,19 +39,21 @@ Login Credentials:
 Open up the terminal, and run the command(s):
 sudo mysql (if prompted for a password, use login password)
 
+Run all commands if needed shown below in quotes, but do not include the quotes when running them.
+
 To see databases, run the command: 
-show databases;
+"show databases;"
 
                                   
 To see tables of the database, run the commands:
-use Major_Match;
-          and then ------>                show tables;
+use "Major_Match;"
+          and then ------>                "show tables;"
 
 
 To see table attributes, run the query:
-DESCRIBE table_name;
+"DESCRIBE table_name;"
 
                                         
 For example, if you wish to query the database to see a list of registered users, run the command:
-SELECT * FROM User;
+"SELECT * FROM User;"
 
