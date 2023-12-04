@@ -45,8 +45,7 @@ show databases;
                                   
 To see tables of the database, run the commands:
 use Major_Match;
-
-show tables;
+          and then ------>                show tables;
 
 
 To see table attributes, run the query:
