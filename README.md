@@ -29,10 +29,24 @@ Networking: Build your academic and professional network.
 
 
 Download and login to Oracle VM at https://www.virtualbox.org/
+Use this link to a Mega Drive to install VM hosting Database: https://mega.nz/file/AnUlzBJQ#Gl8baso__f55M1wsVFeG3mc4vHQ1XXkxTCs_EBSbHBc
 
-User: Public
+Login Credentials:
+       User: Public
+       Password: Firetruck215
 
-Password: Firetruck215
+Open up the terminal, and run the command(s):
+                                              sudo mysql (if prompted for a password, use login password)
 
-Open up the terminal, run Psuedo MySQL
+To see databases, run the command: 
+                                  show databases;
+                                  
+To see tables of the database, run the commands:
+                                                 use Major_Match;
+                                                 show tables;
+To see table attributes, run the query:
+                                        DESCRIBE table_name;
+                                        
+For example, if you wish to query the database to see a list of registered users, run the command:
+                                                                                                    SELECT * FROM User;
 
