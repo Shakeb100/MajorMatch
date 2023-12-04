@@ -1,35 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Major Match User Manual 
 
-## Getting Started
 
-First, run the development server:
+Introduction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Major Match is a unique platform designed for Penn State students to connect with others within their academic major. It combines the ease of social connectivity with academic networking, functioning similarly to popular dating apps but focusing on academic and professional interests.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Activity Log: Track your interactions on the platform. 
 
-## Learn More
+Chat: Communicate with matches through in-app messaging.
 
-To learn more about Next.js, take a look at the following resources:
+ Likes/Dislikes: Express interest or disinterest in profiles. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Matches: Connect with students in your major.
+ 
+Photos: Upload and manage your profile pictures. Profile Browsing: Explore profiles of fellow students. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Transactions: Track any in-app transactions or upgrades. Finding and Connecting Browse: Swipe through profiles within your major. 
 
-## Deploy on Vercel
+Match: Swipe right to connect and enable messaging. Networking Chatting: Use messaging for academic discussions. 
+
+Networking: Build your academic and professional network.
+
+
+# Deployment
+
+
+User: Public
+Password: Firetruck12345
+
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
