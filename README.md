@@ -28,7 +28,7 @@ Networking: Build your academic and professional network.
 ## Deployment
 
 
-Login to the Virtual Machine. 
+Download and login to Oracle VM at https://www.virtualbox.org/
 
 User: Public
 
