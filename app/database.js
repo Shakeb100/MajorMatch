@@ -2,7 +2,7 @@
 const mysql = require('mysql2/promise');
 
 const db = mysql.createPool({
-    host: '192.168.1.24',
+    host: 'cfb5473-VirtualBox',
     user: process.env.MYSQL_USER,
     password: process.env.MYSQL_PASSWORD,
     password: process.env.MYSQL_PASSWORD,
