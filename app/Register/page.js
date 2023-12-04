@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 export default function Register() {
   const [formData, setFormData] = useState({
+    user_id: '',
     username: '',
     name: '',
     email: '',
@@ -16,15 +17,22 @@ export default function Register() {
   
   //Event function ro call api route and run query when register button is pressed and a page submission is detected
   async function handleSubmit(event){
-    
+    //prevents default form submitting with empty data
+    event.preventDefault();
+
+    //Calling onto API route, which will run the query on the database
+    const response = await fetch('../api/register', { method: 'POST', headers: {'Content-Type': 'application/json',},
+    body: JSON.stringify(formData),});
+
+    if(response.ok){
+      const result = await response.json();
+    }
+    //Throw error if fetch fails
+    else{
+      const error = await response.json();
+      console.error('Failed to register new user', error);
+    }
   }
-
-
-
-
-
-
-
 
 
   return(
@@ -37,7 +45,8 @@ export default function Register() {
     <div style={{display: 'flex', justifyContent: 'center'}}>
       <div style={{width: '100%', maxWidth: '100px', margin: '0' }}>
         <h1 style={{ fontSize: '24px', textAlign: 'center', marginBottom: '10px'}}>Register</h1>
-        <form>
+        <form onSubmit={handleSubmit}>
+          <input type='text' name='user_id' value={formData.user_id} onChange={handleChange} placeholder='User ID' />
           <input type='text' name='username' value={formData.username} onChange={handleChange} placeholder='Username' />
           <input type='text' name='name' value={formData.name} onChange={handleChange} placeholder='Name' />
           <input type='text' name='email' value={formData.email} onChange={handleChange} placeholder='Email' />

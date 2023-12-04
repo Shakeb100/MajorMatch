@@ -7,9 +7,11 @@ export default async function handler(req, res) {
     try{
         const query = 'INSERT INTO User (User_ID, Username, Name, Email, Password) VALUES (?, ?, ?, ?, ?)';
         const values = [user_id, username, name, email, password];
-        await mysql.query(query, values);
+        await registersql.query(query, values);
         res.status(200).json({message: 'User connected successfully'});
     }
+    //Error catching, we caee these errors appear in the page's console, 
+    //will show if database fails to establish connection or query properly
     catch(error){
         res.status(500).json({error: error.message});
     }
