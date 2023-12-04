@@ -69,5 +69,5 @@ To see table attributes, run the query:
 
 For example, if you wish to query the database to see a list of registered users, run the command:
                                                                                                   
-                                                                                                  "SELECT * FROM User;"
+                                       "SELECT * FROM User;"
 
