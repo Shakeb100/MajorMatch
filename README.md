@@ -1,4 +1,4 @@
-## Major Match User Manual 
+# Major Match User Manual 
 
 
 Introduction
@@ -6,7 +6,7 @@ Introduction
 Major Match is a unique platform designed for Penn State students to connect with others within their academic major. It combines the ease of social connectivity with academic networking, functioning similarly to popular dating apps but focusing on academic and professional interests.
 
 
-# Features
+## Features
 
 Activity Log: Track your interactions on the platform. 
 
@@ -25,12 +25,16 @@ Match: Swipe right to connect and enable messaging. Networking Chatting: Use mes
 Networking: Build your academic and professional network.
 
 
-# Deployment
+## Deployment
 
+
+Login to the Virtual Machine. 
 
 User: Public
-Password: Firetruck12345
 
+Password: Firetruck215
+
+Open up the terminal, run Psuedo MySQL
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
