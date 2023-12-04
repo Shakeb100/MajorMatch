@@ -13,6 +13,19 @@ export default function Register() {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+  
+  //Event function ro call api route and run query when register button is pressed and a page submission is detected
+  async function handleSubmit(event){
+    
+  }
+
+
+
+
+
+
+
+
 
   return(
     //Added register heading with following size parameters and location on webpage
