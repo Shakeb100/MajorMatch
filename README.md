@@ -27,6 +27,10 @@ Networking: Build your academic and professional network.
 
 ## Deployment
 
+Download the code from GitHub, and open the terminal in the folder directory, being "MajorMatch"
+
+Before running the code, please run the command "npm install next" (installs crucial modules needed by next.js to run the code)
+After that start running the commands above, starting with "npm run dev"
 
 Download and login to Oracle VM at https://www.virtualbox.org/
 Use this link to a Mega Drive to install VM hosting Database: https://mega.nz/file/AnUlzBJQ#Gl8baso__f55M1wsVFeG3mc4vHQ1XXkxTCs_EBSbHBc
