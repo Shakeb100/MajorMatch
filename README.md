@@ -29,9 +29,14 @@ Networking: Build your academic and professional network.
 
 Download the code from GitHub, and open the terminal in the folder directory, being "MajorMatch"
 
-Before running the code, please run the command "npm install next" (installs crucial modules needed by next.js to run the code)
+Before running the code, please run the command:
+                                                
+                                                "npm install next" (installs crucial modules needed by next.js to run the code)
 
-After that start the code by running "npm run dev", this will give you an HTTP link to a website hosted on your machine, being "http://localhost:3000".
+After that start the code by running 
+                                     
+                                     "npm run dev", 
+this will give you an HTTP link to a website hosted on your machine, being "http://localhost:3000".
 This is where the website pages will be shown.
 
 Download and login to Oracle VM at https://www.virtualbox.org/
@@ -44,23 +49,25 @@ Login Credentials:
 
 
 Open up the terminal, and run the command(s):
-sudo mysql (if prompted for a password, use login password)
+                                             
+                                             sudo mysql (if prompted for a password, use login password)
 
 Run all commands if needed shown below in quotes, but do not include the quotes when running them.
 
 To see databases, run the command: 
-"show databases;"
-
                                   
-To see tables of the database, run the commands:
-use "Major_Match;"
-          and then ------>                "show tables;"
+                                  show databases;
 
+To see tables of the database, run the commands:
+                                                 
+                                                 use Major_Match;
+                                                     show tables;
 
 To see table attributes, run the query:
-"DESCRIBE table_name;"
+                                       
+                                       "DESCRIBE table_name;"
 
-                                        
 For example, if you wish to query the database to see a list of registered users, run the command:
-"SELECT * FROM User;"
+                                                                                                  
+                                                                                                  "SELECT * FROM User;"
 
