@@ -31,11 +31,11 @@ Download the code from GitHub, and open the terminal in the folder directory, be
 
 Before running the code, please run the command:
                                                 
-                                                "npm install next" (installs crucial modules needed by next.js to run the code)
+                 "npm install next" (installs crucial modules needed by next.js to run the code)
 
 After that start the code by running 
                                      
-                                     "npm run dev", 
+                                     "npm run dev" 
 this will give you an HTTP link to a website hosted on your machine, being "http://localhost:3000".
 This is where the website pages will be shown.
 
