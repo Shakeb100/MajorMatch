@@ -6,6 +6,8 @@ export default function Register() {
     user_id: '',
     username: '',
     name: '',
+    gender: '',
+    dob: '',
     email: '',
     password: '',
     
@@ -43,12 +45,14 @@ export default function Register() {
     //Wrapped the following div code in another div to center all objects being displayed on the page.
     //The div alligns all items defined along the center axis of the page for specifics 
     <div style={{display: 'flex', justifyContent: 'center'}}>
-      <div style={{width: '100%', maxWidth: '100px', margin: '0' }}>
+      <div style={{width: '100%', maxWidth: '400px', margin: '0' }}>
         <h1 style={{ fontSize: '24px', textAlign: 'center', marginBottom: '10px'}}>Register</h1>
         <form onSubmit={handleSubmit}>
           <input type='text' name='user_id' value={formData.user_id} onChange={handleChange} placeholder='User ID' />
           <input type='text' name='username' value={formData.username} onChange={handleChange} placeholder='Username' />
           <input type='text' name='name' value={formData.name} onChange={handleChange} placeholder='Name' />
+          <input type='text' name='gender' value={formData.gender} onChange={handleChange} placeholder='Male, Female, Other' />
+          <input type='text' name='dob' value={formData.dob} onChange={handleChange} placeholder='Birth Date: YYYY-MM-DD' />
           <input type='text' name='email' value={formData.email} onChange={handleChange} placeholder='Email' />
           <input type='text' name='password' value={formData.password} onChange={handleChange} placeholder='Password' />
 
