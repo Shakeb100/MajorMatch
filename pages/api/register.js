@@ -1,5 +1,5 @@
 //Page to create api route to generate an SQL query to send to the MySQL database
-const registersql = require('../database');
+const registersql = require('../../pages/database');
 
 export default async function handler(req, res) {
     if(req.method === 'POST'){
