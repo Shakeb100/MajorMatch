@@ -28,6 +28,9 @@ export default function Register() {
 
     if(response.ok){
       const result = await response.json();
+      
+      //Redirect to profile page on successful submission
+      windows.location.href = '/login';
     }
     //Throw error if fetch fails
     else{

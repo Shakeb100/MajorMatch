@@ -7,7 +7,7 @@ export default function Home() {
       <h1>Welcome to Major Match</h1>
       <nav>
         <Link href="/login">Login</Link> | 
-        <Link href="/Register">Register</Link>
+        <Link href="/register">Register</Link>
       </nav>
     </div>
   );
